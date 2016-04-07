@@ -18,7 +18,7 @@ SPI::SPI():fd(-1) {
 
 void SPI::begin(int busNo){
 
-	this->device = "/dev/spidev0.0";
+	this->device = "/dev/spidev1.0";
     /* set spidev accordingly to busNo like:
      * busNo = 23 -> /dev/spidev2.3
      *
